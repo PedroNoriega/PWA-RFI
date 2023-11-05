@@ -1,0 +1,50 @@
+/* Estilos personalizados aquí */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.list-group-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    position: relative;
+}
+
+.btn-danger {
+    margin: 0;
+    padding: 3px 10px;
+}
+
+/* Estilos para los colores de fondo */
+.list-group-item[style*="background-color: rgb(174, 213, 129);"] {
+    background-color: #AED581; /* Verde para los pasados */
+}
+
+.list-group-item[style*="background-color: rgb(255, 215, 0);"] {
+    background-color: #FFD700; /* Amarillo para los próximos (menos de 5 minutos) */
+}
+
+
+/* Personaliza los estilos según tus preferencias */
+
+
+.fade-in {
+    animation: fadeIn 1.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

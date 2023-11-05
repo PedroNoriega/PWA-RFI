@@ -1,0 +1,24 @@
+{
+    "name": "Recordatorios de fechas importantes App",
+    "short_name": "RFIApp",
+    "description": "Una aplicación de recordatorios de fechas importantes",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#fff",
+    "theme_color": "#007BFF",
+    "icons": [
+      {
+        "src": "image/icon.png",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "image/splash.png",
+        "sizes": "196x196",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ]
+  }
+  
