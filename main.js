@@ -5,6 +5,18 @@ const descriptionInput = document.getElementById("description");
 const reminderList = document.getElementById("reminder-list");
 const timeInput = document.getElementById("time");
 const botonInput = document.getElementById("boton");
+const vibrateButton = document.getElementById("vibrate-button");
+
+// Evento para activar la vibración cuando se presiona el botón
+vibrateButton.addEventListener("click", function () {
+  if ("vibrate" in navigator) {
+    // Activa la vibración
+    navigator.vibrate([200, 100, 200]); // Patrón de vibración
+  } else {
+    alert("Lo siento, tu dispositivo no admite la función de vibración.");
+  }
+});
+
 
 dateInput.addEventListener("click", function () {
   updateDateMin();
